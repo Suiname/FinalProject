@@ -216,6 +216,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201601211937424_Initial.cs" />
+    <Compile Include="Migrations\201601211937424_Initial.Designer.cs">
+      <DependentUpon>201601211937424_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601211950087_Rating.cs" />
+    <Compile Include="Migrations\201601211950087_Rating.Designer.cs">
+      <DependentUpon>201601211950087_Rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -333,6 +342,12 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\201601211937424_Initial.resx">
+      <DependentUpon>201601211937424_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601211950087_Rating.resx">
+      <DependentUpon>201601211950087_Rating.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
