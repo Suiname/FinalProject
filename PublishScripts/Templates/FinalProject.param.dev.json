@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "ThamFinalProject"
+  },
+  "hostingPlanName": {
+    "value": "ThamFinalProject"
+  },
+  "siteLocation": {
+    "value": "Central US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "thamfinalsql"
+  },
+  "serverLocation": {
+    "value": "East US"
+  },
+  "administratorLogin": {
+    "value": "jt"
+  },
+  "administratorLoginPassword": {
+    "value": "D@1985bs"
+  },
+  "databaseName": {
+    "value": "ThamFinalProject_db"
+  }
+}
